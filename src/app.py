@@ -10,7 +10,7 @@ app = Flask(__name__)
 def details():
     return jsonify({
         'time': datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"),
-        'hostname': 'here:1'
+        'hostname': 'here:11'
     })
 
 @app.route('/api/v1/healthz')
